@@ -101,4 +101,8 @@ public class UXCamModule extends ReactContextBaseJavaModule {
     }
   }
 
+  @ReactMethod
+  public void optOut(boolean shouldOptOut) {
+    UXCam.optOut(shouldOptOut);
+  }
 }

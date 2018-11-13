@@ -40,5 +40,6 @@ export default Package.create({
     // URLs
     urlForCurrentUser: () => UXCam.urlForCurrentUser(),
     urlForCurrentSession: () => UXCam.urlForCurrentSession(),
+    optOut: (isOptOut) => UXCam.optOut(isOptOut),
   }),
 });
